@@ -1,6 +1,6 @@
 {
     "name": "sass2css",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Covert sass to css",
     "keywords": [
         "sass",
@@ -8,6 +8,9 @@
         "covert",
         "sass2css"
     ],
+    "bin": {
+        "sass2css": "./bin/sass2css"
+    },
     "license": "MIT",
     "repository": {
         "type": "git",
