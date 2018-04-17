@@ -1,0 +1,293 @@
+$color-white: #FFFFFF;
+
+$color-black: #000000;
+
+$color-transparent: transparent;
+
+$color-brand1-1: #E3FBD3;
+
+$color-brand1-2: #CEF5B4;
+
+$color-brand1-3: #FFC8A3;
+
+$color-brand1-4: #FFAC75;
+
+$color-brand1-5: #FF8B3D;
+
+$color-brand1-6: #46BC02;
+
+$color-brand1-7: #F75F00;
+
+$color-brand1-8: #F05800;
+
+$color-brand1-9: #2F990F;
+
+$color-brand1-10: #D64F00;
+
+$color-brand2-1: #FFFFFF;
+
+$color-brand2-2: #FFFFFF;
+
+$color-brand2-3: #FFFFFF;
+
+$color-brand2-6: #2192D9;
+
+$color-brand7-6: #FFFFFF;
+
+$color-brand7-9: #FFFFFF;
+
+$color-error-1: #FFEBEE;
+
+$color-error-2: #F44336;
+
+$color-error-3: #DB2F23;
+
+$color-fill1-1: #F7F8FA;
+
+$color-fill1-2: #F2F3F7;
+
+$color-fill1-3: #EBECF0;
+
+$color-fill1-4: #E2E4E8;
+
+$color-help-1: #FDF5FF;
+
+$color-help-2: #B921F3;
+
+$color-help-3: #A116D9;
+
+$color-line1-1: #E6E7EB;
+
+$color-line1-2: #DCDEE3;
+
+$color-line1-3: #C4C6CF;
+
+$color-line1-4: #A0A2AD;
+
+$color-link-1: #46BC02;
+
+$color-link-2: #46BC02;
+
+$color-link-3: #2F990F;
+
+$color-notice-1: #E3F2FD;
+
+$color-notice-2: #2196F3;
+
+$color-notice-3: #1681D9;
+
+$color-other-1: #FFEB3B;
+
+$color-other-2: #FFFFFF;
+
+$color-other-3: #FFFFFF;
+
+$color-success-1: #F1F8E9;
+
+$color-success-2: #8BC34A;
+
+$color-success-3: #70A82F;
+
+$color-text1-1: #CCCCCC;
+
+$color-text1-2: #999999;
+
+$color-text1-3: #666666;
+
+$color-text1-4: #333333;
+
+$color-text1-5: #222222;
+
+$color-warning-1: #FFF3E0;
+
+$color-warning-2: #FF9800;
+
+$color-warning-3: #ED6F00;
+
+
+$color-b1-1: $color-brand1-1 !default;
+$color-b1-2: $color-brand1-2 !default;
+$color-b1-3: $color-brand1-3 !default;
+$color-b1-4: $color-brand1-4 !default;
+$color-b1-5: $color-brand1-5 !default;
+$color-b1-6: $color-brand1-6 !default;
+$color-b1-7: $color-brand1-7 !default;
+$color-b1-8: $color-brand1-8 !default;
+$color-b1-9: $color-brand1-9 !default;
+$color-b1-10: $color-brand1-10 !default;
+
+$color-b2-1: $color-brand2-1 !default;
+$color-b2-2: $color-brand2-2 !default;
+$color-b2-3: $color-brand2-3 !default;
+$color-b2-6: $color-brand2-6 !default;
+$color-b7-6: $color-brand7-6 !default;
+$color-b7-9: $color-brand7-9 !default;
+
+$color-b2-4: #7ABEE8 !default;
+$color-b2-5: #4DA8E1 !default;
+$color-b2-7: #1587D1 !default;
+$color-b2-8: #0A7EC9 !default;
+$color-b2-9: #0073BD !default;
+$color-b2-10: #006AB0 !default;
+
+$color-b3-1: #FFE2DB !default;
+$color-b3-2: #FFC8BF !default;
+$color-b3-3: #F7A394 !default;
+$color-b3-4: #ED8472 !default;
+$color-b3-5: #E3715D !default;
+$color-b3-6: #D9624E !default;
+$color-b3-7: #D15241 !default;
+$color-b3-8: #C43F31 !default;
+$color-b3-9: #BD3224 !default;
+$color-b3-10: #B32018 !default;
+
+$color-b4-1: #E7F5E5 !default;
+$color-b4-2: #CDEBC8 !default;
+$color-b4-3: #B0DEA9 !default;
+$color-b4-4: #92CC86 !default;
+$color-b4-5: #70B564 !default;
+$color-b4-6: #55A344 !default;
+$color-b4-7: #479635 !default;
+$color-b4-8: #3B8F28 !default;
+$color-b4-9: #358723 !default;
+$color-b4-10: #257D12 !default;
+
+$color-b5-1: #FEF7DA !default;
+$color-b5-2: #FFF2C2 !default;
+$color-b5-3: #FDE89D !default;
+$color-b5-4: #FFE27D !default;
+$color-b5-5: #FBD653 !default;
+$color-b5-6: #FACE32 !default;
+$color-b5-7: #F7BF25 !default;
+$color-b5-8: #F2B211 !default;
+$color-b5-9: #EDA807 !default;
+$color-b5-10: #E89A00 !default;
+
+$color-b6-1: #E9E6FA !default;
+$color-b6-2: #D5CFF7 !default;
+$color-b6-3: #B8AFED !default;
+$color-b6-4: #9F94E8 !default;
+$color-b6-5: #887BE3 !default;
+$color-b6-6: #6D5CDB !default;
+$color-b6-7: #5F4DD1 !default;
+$color-b6-8: #5240C7 !default;
+$color-b6-9: #4634BF !default;
+$color-b6-10: #3A27B5 !default;
+
+$color-b7-1: #E3EAF7 !default;
+$color-b7-2: #CCD9F0 !default;
+$color-b7-3: #AABEE0 !default;
+$color-b7-4: #84A1D1 !default;
+$color-b7-5: #6D8CC2 !default;
+$color-b7-7: #4369AB !default;
+$color-b7-8: #375EA3 !default;
+$color-b7-10: #224B94 !default;
+
+$color-b8-1: #FFEBEE !default;
+$color-b8-2: #FFD9E0 !default;
+$color-b8-3: #FFC2CE !default;
+$color-b8-4: #FFA3B6 !default;
+$color-b8-5: #FF89A1 !default;
+$color-b8-6: #F96985 !default;
+$color-b8-7: #F54E70 !default;
+$color-b8-8: #ED395D !default;
+$color-b8-9: #DE284C !default;
+$color-b8-10: #D1173F !default;
+
+$color-f1-1: $color-warning-2 !default;
+$color-f1-2: $color-warning-1 !default;
+$color-f1-3: $color-warning-3 !default;
+
+$color-f2-1: $color-error-2 !default;
+$color-f2-2: $color-error-1 !default;
+$color-f2-3: $color-error-3 !default;
+
+$color-f3-1: $color-success-2 !default;
+$color-f3-2: $color-success-1 !default;
+$color-f3-3: $color-success-3 !default;
+
+$color-f4-1: $color-link-1 !default;
+$color-f4-2: $color-link-3 !default;
+$color-f4-3: $color-link-2 !default;
+
+$color-f5-1: $color-notice-2 !default;
+$color-f5-2: $color-notice-1 !default;
+$color-f5-3: $color-notice-3 !default;
+
+$color-f6-1: $color-other-2 !default;
+$color-f6-2: $color-other-1 !default;
+$color-f6-3: $color-other-3 !default;
+
+$color-f1-4: transparent !default;
+$color-f1-5: transparent !default;
+$color-f1-6: transparent !default;
+$color-f1-7: transparent !default;
+$color-f1-8: transparent !default;
+$color-f1-9: transparent !default;
+$color-f1-10: transparent !default;
+
+$color-f2-4: transparent !default;
+$color-f2-5: transparent !default;
+$color-f2-6: transparent !default;
+$color-f2-7: transparent !default;
+$color-f2-8: transparent !default;
+$color-f2-9: transparent !default;
+$color-f2-10: transparent !default;
+
+$color-f3-4: transparent !default;
+$color-f3-5: transparent !default;
+$color-f3-6: transparent !default;
+$color-f3-7: transparent !default;
+$color-f3-8: transparent !default;
+$color-f3-9: transparent !default;
+$color-f3-10: transparent !default;
+
+$color-f4-4: transparent !default;
+$color-f4-5: transparent !default;
+$color-f4-6: transparent !default;
+$color-f4-7: transparent !default;
+$color-f4-8: transparent !default;
+$color-f4-9: transparent !default;
+$color-f4-10: transparent !default;
+
+$color-f5-4: transparent !default;
+$color-f5-5: transparent !default;
+$color-f5-6: transparent !default;
+$color-f5-7: transparent !default;
+$color-f5-8: transparent !default;
+$color-f5-9: transparent !default;
+$color-f5-10: transparent !default;
+
+$color-f6-1: transparent !default;
+$color-f6-2: transparent !default;
+$color-f6-3: transparent !default;
+$color-f6-4: transparent !default;
+$color-f6-5: transparent !default;
+$color-f6-6: transparent !default;
+$color-f6-7: transparent !default;
+$color-f6-8: transparent !default;
+$color-f6-9: transparent !default;
+$color-f6-10: transparent !default;
+
+$color-n1-1: $color-white !default;
+$color-n1-2: $color-fill1-1 !default;
+$color-n1-3: $color-fill1-2 !default;
+$color-n1-4: $color-fill1-3 !default;
+$color-n1-5: $color-line1-1 !default;
+$color-n1-6: $color-line1-2 !default;
+$color-n1-7: $color-line1-3 !default;
+$color-n1-8: $color-line1-4 !default;
+$color-n1-9: $color-black !default;
+$color-n1-10: $color-fill1-4 !default;
+
+$color-n2-1: $color-text1-1 !default;
+$color-n2-2: $color-text1-2 !default;
+$color-n2-3: $color-text1-3 !default;
+$color-n2-4: $color-text1-4 !default;
+$color-n2-5: $color-text1-5 !default;
+
+$color-n2-6: transparent !default;
+$color-n2-7: transparent !default;
+$color-n2-8: transparent !default;
+$color-n2-9: transparent !default;
+$color-n2-10: transparent !default;

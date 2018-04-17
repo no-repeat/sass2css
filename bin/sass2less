@@ -1,0 +1,55 @@
+#! /usr/bin/env node
+
+'use strict';
+
+const program = require('commander');
+const path = require('path');
+const fs = require('fs');
+const co = require('co');
+const chalk = require('chalk');
+
+const runner = require('../lib/index.js');
+const PACKAGE = require('../package.json');
+
+program
+    .version(PACKAGE.version)
+    .usage('<srcFile> <destFile>')
+    .action(function (srcFile, destFile) {
+        const cwd = process.cwd();
+        const now = Date.now();
+
+        srcFile = typeof srcFile === 'string' ? path.join(cwd, srcFile) : '';
+        destFile = typeof destFile === 'string' ? path.join(cwd, destFile) : '';
+        if (!destFile ) {
+            destFile = path.join(cwd, `${now}.css`);
+        }
+        
+        if (!srcFile || !fs.existsSync(srcFile)) {
+            console.log(chalk.red('File %s is not exists'), srcFile);
+            program.outputHelp();
+            process.exit(1);
+        } else {
+            console.log(chalk.green('Covert start'));
+            console.log(chalk.blue('Covert %s to %s'), srcFile, destFile);
+
+            co(function* () {
+                if (runner.constructor.name === 'GeneratorFunction') {
+                    yield runner(cwd, srcFile, destFile);
+                } else {
+                    runner(cwd, srcFile, destFile);
+                }
+            }).catch((err) => {
+                console.log(chalk.red('%s'), err);
+                process.exit(1);
+            });
+        }
+    });
+
+program.on('--help', function () {
+    console.log(chalk.blue('  Example:'));
+    console.log('');
+    console.log(chalk.green('    sass2css a.scss b.css'));
+    console.log('');
+});
+
+program.parse(process.argv);
