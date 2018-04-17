@@ -13,7 +13,7 @@
         "type": "git",
         "url": "https://github.com/no-repeat/sass2css.git"
     },
-    "author": "chenpeng.mini@gmail.com",
+    "author": "no-repeat <chenpeng.mini@gmail.com>",
     "scripts": {
         "test": "nyc mocha test/*.js"
     },
