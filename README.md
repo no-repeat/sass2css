@@ -18,7 +18,7 @@ Convert sass to css.
 
 ## Usage
 
-```bash
+```shell
 npm i sass2css -g
 
 sass2css src.scss dest.css
