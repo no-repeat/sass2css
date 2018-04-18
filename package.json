@@ -18,7 +18,8 @@
     },
     "author": "no-repeat <chenpeng.mini@gmail.com>",
     "scripts": {
-        "test": "nyc mocha test/*.js"
+        "test": "nyc mocha test/*.js",
+        "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
     },
     "engines": {
         "node": "6"
